@@ -57,7 +57,7 @@ void game()
     }
     printf("\n");
 
-    printf("***SCORE CARD***\nSATYAM:%d/3\nCOMPUTER:%d/3\n", user, comp);
+    printf("***SCORE CARD***\n%s:%d/3\nCOMPUTER:%d/3\n", name, user, comp);
     if (user > comp)
     {
         printf("WINNER: %s\n", name);
